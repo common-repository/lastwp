@@ -1,0 +1,76 @@
+.widget_lastWP {
+ font-size:10px;
+ line-height:15px;
+}
+
+.widget_lastWP div.lfm_item {
+ margin-bottom:5px;
+}
+
+.widget_lastWP div div {
+ padding:0;
+}
+
+.widget_lastWP div.lfm_art {
+ float:left;
+ height:74px;
+ margin-right:5px;
+ width:81px;
+}
+
+.widget_lastWP div.lfm_art a {
+ background-image:url('../images/lfm_overlay.png');
+ background-repeat:no-repeat;
+ border:0;
+ display:block;
+ height:74px;
+ position:absolute;
+ width:81px;
+ z-index:3;
+}
+
+.widget_lastWP div.lfm_art img {
+ height:64px;
+ overflow:hidden;
+ margin:3px 12px;
+ width:63px;
+ z-index:1;
+}
+
+.widget_lastWP div.lfm_playing {
+ background-image:url('../images/lfm_playing.png');
+ background-position:bottom right;
+ background-repeat:no-repeat;
+ border:0;
+ display:none;
+ height:53px;
+ margin:15px;
+ position:absolute;
+ width:60px;
+ z-index:2;
+}
+
+.widget_lastWP div.lfm_song {
+ font-weight:bold;
+ margin-bottom:1px;
+ text-align:center;
+}
+
+.widget_lastWP div.lfm_artist {
+ font-style:italic;
+ padding-left:10px;
+}
+
+.widget_lastWP div.lfm_album {
+ padding-left:10px;
+}
+
+.widget_lastWP span.lfm_meta {
+ color:grey;
+ font-style:italic;
+ size:9px;
+}
+
+.widget_lastWP div.clear {
+ clear:both;
+}
